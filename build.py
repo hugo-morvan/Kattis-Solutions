@@ -20,7 +20,7 @@ image_mapper = {
 get_image = lambda e,s=24: f'{image_src}{image_mapper[e]}/{image_mapper[e]}_{s}x{s}.png'
 
 contents = []
-for path, dirs, files in os.walk('src'):
+for path, dirs, files in os.walk('source'):
     ori_path, path = path, path.split(os.sep)
     if len(path) == 2 and path[1] != '.nus': path, nus = path[1], False
     elif len(path) == 3 and path[1] == '.nus': path, nus = path[2], True
