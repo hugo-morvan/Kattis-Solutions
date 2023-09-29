@@ -40,11 +40,18 @@ for path, dirs, files in os.walk('source'):
     pid = (has_py or has_cpp or has_java).split('.')[0].split('-')[0] # another split to handle /autori
     url = f"https://open.kattis.com/problems/{pid}"
 
+
+    #HM: nus = National University of Singapore, This chunck of code is specific to RussellDash332's Kattis repo
     if nus:
         url = url.replace('open.kattis.com', 'nus.kattis.com').replace('problems/', 'problems/nus.')
         contents.append([f'!nus.{pid}', f"|[[NUS] {path}]({url})| nus.{pid} |{''.join(hyps).replace(' ','%20')}|\n"]) # NUS-exclusive problems first
     else:
         contents.append([pid, f"|[{path}]({url})| {pid} |{''.join(hyps).replace(' ','%20')}|\n"])
+        
+print("Contents: ")
+print(contents)
+print("Content lenght: ")
+print(len(contents))
 
 HIDDEN = 19 + 37
 lines = open('README.md', 'r').readlines()[:3]
