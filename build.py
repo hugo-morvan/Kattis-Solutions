@@ -46,8 +46,8 @@ for path, dirs, files in os.walk('source'):
         url = url.replace('open.kattis.com', 'nus.kattis.com').replace('problems/', 'problems/nus.')
         contents.append([f'!nus.{pid}', f"|[[NUS] {path}]({url})| nus.{pid} |{''.join(hyps).replace(' ','%20')}|\n"]) # NUS-exclusive problems first
     else:
-        contents.append([pid, f"|[{path}]({url})| {pid} |{''.join(hyps).replace(' ','%20')}|\n"])
-        
+        contents.append([pid, f"|[{path}]({url})| {pid} |{''.join(hyps).replace(' ','%20').replace('/', '%2F')}|\n"])
+
 print("Contents: ")
 print(contents)
 print("Content lenght: ")
