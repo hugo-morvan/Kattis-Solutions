@@ -49,8 +49,6 @@ for path, dirs, files in os.walk('source'):
         dir = ''.join(hyps).replace(' ','%20').replace('\\','/')
         contents.append([pid, f"|[{path}]({url})| {pid} |{dir}|\n"])
         
-print("Contents: ")
-print(contents)
 print("Content lenght: ")
 print(len(contents))
 

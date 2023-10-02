@@ -1,0 +1,1 @@
+exec"print(-(-int(input())//400));"*int(input())
