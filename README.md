@@ -1,6 +1,3 @@
-## Total problems solved: 299
-
-Note that the table below is auto-generated. There might be slight inaccuracies.
 ## Total problems solved: 322
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
