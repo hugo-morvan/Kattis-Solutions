@@ -1,6 +1,3 @@
-## Total problems solved: 299
-
-Note that the table below is auto-generated. There might be slight inaccuracies.
 ## Total problems solved: 322
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
@@ -70,7 +67,6 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Conquest Campaign](https://open.kattis.com/problems/conquestcampaign)| conquestcampaign |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Conquest%20Campaign/conquestcampaign.java)|
 |[Cryptographer's Conundrum](https://open.kattis.com/problems/conundrum)| conundrum |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Cryptographer's%20Conundrum/conundrum.py)|
 |[Costume Contest](https://open.kattis.com/problems/costumecontest)| costumecontest |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Costume%20Contest/costumecontest.java)|
-|[countprimes](https://open.kattis.com/problems/countprimes)| countprimes |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/countprimes/countprimes.py)|
 |[Count the Vowels](https://open.kattis.com/problems/countthevowels)| countthevowels |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Count%20the%20Vowels/countthevowels.py)|
 |[CPR Number](https://open.kattis.com/problems/cprnummer)| cprnummer |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/CPR%20Number/cprnummer.py)|
 |[Crne](https://open.kattis.com/problems/crne)| crne |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Crne/crne.py)|
@@ -90,7 +86,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Distributing Poffins](https://open.kattis.com/problems/distributingpoffin)| distributingpoffin |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Distributing%20Poffins/distributingpoffin.py)|
 |[DRM Messages](https://open.kattis.com/problems/drmmessages)| drmmessages |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/DRM%20Messages/drmmessages.py)|
 |[The Easiest Problem is This One](https://open.kattis.com/problems/easiest)| easiest |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/The%20Easiest%20Problem%20is%20This%20One/easiest.py)|
-|[eatingout](https://open.kattis.com/problems/eatingout)| eatingout |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/eatingout/eatingout.py)|
+|[Eating Out](https://open.kattis.com/problems/eatingout)| eatingout |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Eating%20Out/eatingout.py)|
 |[Echo Echo Echo](https://open.kattis.com/problems/echoechoecho)| echoechoecho |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Echo%20Echo%20Echo/echoechoecho.py)|
 |[Ekki daudi opna inni](https://open.kattis.com/problems/ekkidaudi)| ekkidaudi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Ekki%20daudi%20opna%20inni/ekkidaudi.py)|
 |[Election](https://open.kattis.com/problems/election2)| election2 |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Election/election2.java)|
@@ -193,6 +189,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Popcorn](https://open.kattis.com/problems/popkorn)| popkorn |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Popcorn/popkorn.py)|
 |[Pot](https://open.kattis.com/problems/pot)| pot |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Pot/pot.java)|
 |[Primality](https://open.kattis.com/problems/primality)| primality |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Primality/Primality.java)|
+|[Prime Count](https://open.kattis.com/problems/primecount)| primecount |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Prime%20Count/primecount.py)|
 |[Provinces and Gold](https://open.kattis.com/problems/provincesandgold)| provincesandgold |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Provinces%20and%20Gold/provincesandgold.py)|
 |[Prsteni](https://open.kattis.com/problems/prsteni)| prsteni |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Prsteni/prsteni.py)|
 |[Ptice](https://open.kattis.com/problems/ptice)| ptice |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Ptice/ptice.py)|
@@ -247,7 +244,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Tai's formula](https://open.kattis.com/problems/taisformula)| taisformula |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Tai's%20formula/taisformula.py)|
 |[Take Two Stones](https://open.kattis.com/problems/taketwostones)| taketwostones |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Take%20Two%20Stones/TakeTwoStones.java)|
 |[Tarifa](https://open.kattis.com/problems/tarifa)| tarifa |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Tarifa/tarifa.java)|
-|[temperatureconfusion](https://open.kattis.com/problems/temperatureconfusion)| temperatureconfusion |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/temperatureconfusion/temperatureconfusion.py)|
+|[Temperature Confusion](https://open.kattis.com/problems/temperatureconfusion)| temperatureconfusion |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Temperature%20Confusion/temperatureconfusion.py)|
 |[Tetration](https://open.kattis.com/problems/tetration)| tetration |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Tetration/tetration.py)|
 |[Thanos](https://open.kattis.com/problems/thanos)| thanos |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Thanos/thanos.py)|
 |[The Last Problem](https://open.kattis.com/problems/thelastproblem)| thelastproblem |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/The%20Last%20Problem/thelastproblem.py)|
