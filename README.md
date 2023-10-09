@@ -1,4 +1,4 @@
-## Total problems solved: 322
+## Total problems solved: 324
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
 
@@ -208,6 +208,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Reversed Binary Numbers](https://open.kattis.com/problems/reversebinary)| reversebinary |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Reversed%20Binary%20Numbers/reversebinary.py)|
 |[Rijeci](https://open.kattis.com/problems/rijeci)| rijeci |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Rijeci/rijeci.py)|
 |[Roaming Romans](https://open.kattis.com/problems/romans)| romans |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Roaming%20Romans/romans.java)|
+|[Rule N](https://open.kattis.com/problems/rulen)| rulen |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Rule%20N/rulen.py)|
 |[Sanic](https://open.kattis.com/problems/sanic)| sanic |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sanic/sanic.py)|
 |[Secure Doors](https://open.kattis.com/problems/securedoors)| securedoors |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Secure%20Doors/securedoors.java)|
 |[sequences](https://open.kattis.com/problems/sequences)| sequences |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/sequences/sequences.py)|
@@ -225,6 +226,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Tirn It Up!](https://open.kattis.com/problems/skruop)| skruop |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Tirn%20It%20Up!/skruop.py)|
 |[Sky Islands](https://open.kattis.com/problems/skyislands)| skyislands |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sky%20Islands/skyislands.py)|
 |[Slatkisi](https://open.kattis.com/problems/slatkisi)| slatkisi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Slatkisi/slatkisi.py)|
+|[Sly Students](https://open.kattis.com/problems/slystudents)| slystudents |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sly%20Students/slystudents.py)|
 |[SMIL](https://open.kattis.com/problems/smil)| smil |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/SMIL/smil.java)|
 |[Soda Slurper](https://open.kattis.com/problems/sodaslurper)| sodaslurper |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Soda%20Slurper/sodaslurper.py)|
 |[Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers)| sorttwonumbers |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sort%20Two%20Numbers/sorttwonumbers.py)|
