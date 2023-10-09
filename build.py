@@ -58,5 +58,6 @@ with open('README.md', 'w+') as f:
     for line in lines: f.write(line)
     f.write(f'## Total problems solved: {len(contents) + HIDDEN}\n\n')
     f.write(f'Note that the table below is auto-generated. There might be slight inaccuracies.\n\n')
+    f.write(f'auto-table script credits : https://github.com/RussellDash332/kattis.\n\n')
     f.write('|Problem Name|Problem ID|Languages|\n|:---|:---|:---|\n')
     for key, content in sorted(contents): f.write(content)
