@@ -12,8 +12,13 @@
 # s=a+input()+a
 # for i in range(r+1):s="".join([bin(n)[2:].zfill(8)[["111","110","101","100","011","010","001","000"].index(s[j-1:j+2])] for j in range(1,len(s)-1)]);print((s)[r-i:i-r])
 
-#224
-n,_,r=map(int,input().split())
-a="0"*(r+1)
-s=a+input()+a
-for i in range(r+1):s="".join([bin(n)[2:].zfill(8)[["111","110","101","100","011","010","001","000"].index(s[j:j+3])] for j in range(len(s)-2)]);print(s[r-i:i-r])
+#222
+# n,_,r=map(int,input().split())
+# a="0"*(r+1)
+# s=a+input()+a
+# for i in range(r+1):s="".join([bin(n)[2:].zfill(8)[["111","110","101","100","011","010","001","000"].index(s[j:j+3])] for j in range(len(s)-2)]);print(s[r-i:i-r])
+
+n,_,r=input().split()
+p=int(r)+1
+s="0"*p+input()+"0"*p
+for i in range(p):s="".join([bin(int(n))[2:].zfill(8)[["111","110","101","100","011","010","001","000"].index(s[j:j+3])] for j in range(len(s)-2)]);print(s[p-i-1:i-p+1])

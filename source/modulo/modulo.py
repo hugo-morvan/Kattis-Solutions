@@ -1,1 +1,0 @@
-print(len(set([int(input())%42 for _ in [0]*10])))
