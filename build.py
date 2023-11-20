@@ -49,11 +49,11 @@ for path, dirs, files in os.walk('source'):
         dir = ''.join(hyps).replace(' ','%20').replace('\\','/')
         contents.append([pid, f"|[{path}]({url})| {pid} |{dir}|\n"])
         
-print("Content lenght: ")
-print(len(contents))
+#print("Content lenght: ")
+#print(len(contents))
 
-HIDDEN = 19 + 37
-lines = open('README.md', 'r').readlines()[:3]
+HIDDEN = 0 # 19 + 37 <- ??
+lines = open('README.md', 'r').readlines()#[:3] #Change this if you want to keep some lines of code intact
 with open('README.md', 'w+') as f:
     for line in lines: f.write(line)
     f.write(f'## Total problems solved: {len(contents) + HIDDEN}\n\n')
