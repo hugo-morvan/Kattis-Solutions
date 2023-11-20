@@ -1,0 +1,16 @@
+#.github/workflows/auto_table_action.yalm
+name: Auto Table Script
+on: [push]
+
+jobs:
+  run-build-script:
+    runs-on: ubuntu-latest
+    name: Runs the table build.py script
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Run build script
+        run: python ./build.py
+      
