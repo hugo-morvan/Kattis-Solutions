@@ -1,4 +1,5 @@
 name: Auto Table Action
+on: [push]
 description: >-
   Runs the build.py script to automatically generate the summary table of this
   repo
