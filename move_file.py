@@ -7,7 +7,7 @@ import os
 import shutil
 
 # Define the source folder path
-source_folder = "your_folder_conating_files"
+source_folder = "your_folder_containing_files"
 
 # Loop through all files in the source folder
 for filename in os.listdir(source_folder):
