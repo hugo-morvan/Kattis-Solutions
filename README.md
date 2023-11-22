@@ -1,4 +1,4 @@
-## Total problems solved: 278
+## Total problems solved: 292
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
 
@@ -30,6 +30,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[A prize No one can Win](https://open.kattis.com/problems/aprizenoonecanwin)| aprizenoonecanwin |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/A%20prize%20No%20one%20can%20Win/aprizenoonecanwin.py)|
 |[A Real Challenge](https://open.kattis.com/problems/areal)| areal |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/A%20Real%20Challenge/areal.py)|
 |[Arithmetic](https://open.kattis.com/problems/arithmetic)| arithmetic |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Arithmetic/arithmetic.py)|
+|[Asciikassi](https://open.kattis.com/problems/asciikassi)| asciikassi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Asciikassi/asciikassi.py)|
 |[Attendance](https://open.kattis.com/problems/attendance2)| attendance2 |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Attendance/attendance2.py)|
 |[Autori](https://open.kattis.com/problems/autori)| autori |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Autori/autori.java)|
 |[Average Character](https://open.kattis.com/problems/averagecharacter)| averagecharacter |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Average%20Character/averagecharacter.py)|
@@ -107,6 +108,8 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Final Exam](https://open.kattis.com/problems/finalexam2)| finalexam2 |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Final%20Exam/finalexam2.py)|
 |[Finding An A](https://open.kattis.com/problems/findingana)| findingana |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Finding%20An%20A/FindingAnA.java)[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Finding%20An%20A/findingana.py)|
 |[FizzBuzz](https://open.kattis.com/problems/fizzbuzz)| fizzbuzz |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/FizzBuzz/FizzBuzz.java)|
+|[Flatbokuveisla](https://open.kattis.com/problems/flatbokuveisla)| flatbokuveisla |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Flatbokuveisla/flatbokuveisla.py)|
+|[Flytibaka](https://open.kattis.com/problems/flytibaka)| flytibaka |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Flytibaka/flytibaka.py)|
 |[Forced Choice](https://open.kattis.com/problems/forcedchoice)| forcedchoice |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Forced%20Choice/forcedchoice.py)|
 |[Free Food](https://open.kattis.com/problems/freefood)| freefood |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Free%20Food/freefood.py)|
 |[FYI](https://open.kattis.com/problems/fyi)| fyi |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/FYI/fyi.java)[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/FYI/fyi.py)|
@@ -129,6 +132,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[hidingplaces](https://open.kattis.com/problems/hidingplaces)| hidingplaces |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/hidingplaces/hidingplaces.py)|
 |[Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone)| hissingmicrophone |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Hissing%20Microphone/hissingmicrophone.py)|
 |[Howl](https://open.kattis.com/problems/howl)| howl |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Howl/howl.py)|
+|[Hradgreining](https://open.kattis.com/problems/hradgreining)| hradgreining |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Hradgreining/hradgreining.py)|
 |[The Amazing Human Cannonball](https://open.kattis.com/problems/humancannonball2)| humancannonball2 |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/The%20Amazing%20Human%20Cannonball/humancannonball2.java)|
 |[ICPC Awards](https://open.kattis.com/problems/icpcawards)| icpcawards |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/ICPC%20Awards/icpcawards.py)|
 |[International Dates](https://open.kattis.com/problems/internationaldates)| internationaldates |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/International%20Dates/internationaldates.py)|
@@ -165,8 +169,10 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Meeting Points](https://open.kattis.com/problems/meetingpoints)| meetingpoints |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Meeting%20Points/meetingpoints.java)|
 |[Methodic Multiplication](https://open.kattis.com/problems/methodicmultiplication)| methodicmultiplication |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Methodic%20Multiplication/methodicmultiplication.py)|
 |[Metronome](https://open.kattis.com/problems/metronome)| metronome |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Metronome/metronome.py)|
+|[Millifaersla](https://open.kattis.com/problems/millifaersla)| millifaersla |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Millifaersla/millifaersla.py)|
 |[Missing Numbers](https://open.kattis.com/problems/missingnumbers)| missingnumbers |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Missing%20Numbers/missingnumbers.java)|
 |[Modulo](https://open.kattis.com/problems/modulo)| modulo |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Modulo/modulo.py)|
+|[Monopol](https://open.kattis.com/problems/monopol)| monopol |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Monopol/monopol.py)|
 |[Mult!](https://open.kattis.com/problems/mult)| mult |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Mult!/mult.java)|
 |[NastyHacks](https://open.kattis.com/problems/nastyhacks)| nastyhacks |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/NastyHacks/NastyHacks.java)|
 |[Nikola](https://open.kattis.com/problems/nikola)| nikola |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Nikola/Nikola.java)|
@@ -199,6 +205,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Pot](https://open.kattis.com/problems/pot)| pot |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Pot/pot.java)|
 |[Primality](https://open.kattis.com/problems/primality)| primality |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Primality/Primality.java)|
 |[Prime Count](https://open.kattis.com/problems/primecount)| primecount |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Prime%20Count/primecount.py)|
+|[Prjonamynstur](https://open.kattis.com/problems/prjonamynstur)| prjonamynstur |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Prjonamynstur/prjonamynstur.py)|
 |[Provinces and Gold](https://open.kattis.com/problems/provincesandgold)| provincesandgold |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Provinces%20and%20Gold/provincesandgold.py)|
 |[Prsteni](https://open.kattis.com/problems/prsteni)| prsteni |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Prsteni/prsteni.py)|
 |[Ptice](https://open.kattis.com/problems/ptice)| ptice |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Ptice/ptice.py)|
@@ -230,19 +237,22 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Simon Says](https://open.kattis.com/problems/simonsays)| simonsays |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Simon%20Says/simonsays.py)|
 |[Simple Addition](https://open.kattis.com/problems/simpleaddition)| simpleaddition |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Simple%20Addition/simpleaddition.java)|
 |[Sith](https://open.kattis.com/problems/sith)| sith |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sith/sith.py)|
+|[Skammstofun](https://open.kattis.com/problems/skammstofun)| skammstofun |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Skammstofun/skammstofun.py)|
 |[Skener](https://open.kattis.com/problems/skener)| skener |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Skener/skener.py)|
 |[Skocimis](https://open.kattis.com/problems/skocimis)| skocimis |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Skocimis/skocimis.java)|
-|[Tirn It Up!](https://open.kattis.com/problems/skruop)| skruop |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Tirn%20It%20Up!/skruop.py)|
+|[Turn It Up!](https://open.kattis.com/problems/skruop)| skruop |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Turn%20It%20Up!/skruop.py)|
 |[Sky Islands](https://open.kattis.com/problems/skyislands)| skyislands |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sky%20Islands/skyislands.py)|
 |[Slatkisi](https://open.kattis.com/problems/slatkisi)| slatkisi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Slatkisi/slatkisi.py)|
 |[Sly Students](https://open.kattis.com/problems/slystudents)| slystudents |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sly%20Students/slystudents.py)|
 |[SMIL](https://open.kattis.com/problems/smil)| smil |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/SMIL/smil.java)|
 |[Soda Slurper](https://open.kattis.com/problems/sodaslurper)| sodaslurper |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Soda%20Slurper/sodaslurper.py)|
 |[Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers)| sorttwonumbers |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sort%20Two%20Numbers/sorttwonumbers.py)|
+|[Sottkvi](https://open.kattis.com/problems/sottkvi)| sottkvi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sottkvi/sottkvi.py)|
 |[Soylent](https://open.kattis.com/problems/soylent)| soylent |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Soylent/soylent.py)|
 |[Spavanac](https://open.kattis.com/problems/spavanac)| spavanac |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Spavanac/spavanac.py)|
 |[Speed Limit](https://open.kattis.com/problems/speedlimit)| speedlimit |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Speed%20Limit/speedlimit.py)|
 |[Speedrun](https://open.kattis.com/problems/speedrun)| speedrun |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Speedrun/speedrun.py)|
+|[Spritt](https://open.kattis.com/problems/spritt)| spritt |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Spritt/spritt.py)|
 |[Square Peg](https://open.kattis.com/problems/squarepeg)| squarepeg |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Square%20Peg/squarepeg.py)|
 |[Sticky Keys](https://open.kattis.com/problems/stickykeys)| stickykeys |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Sticky%20Keys/stickykeys.py)|
 |[Stopwatch](https://open.kattis.com/problems/stopwatch)| stopwatch |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Stopwatch/stopwatch.java)|
@@ -262,14 +272,18 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[thepaladin](https://open.kattis.com/problems/thepaladin)| thepaladin |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/thepaladin/thepaladin.py)|
 |[The Plank](https://open.kattis.com/problems/theplank)| theplank |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/The%20Plank/theplank.java)|
 |[Stuck In A Time Loop](https://open.kattis.com/problems/timeloop)| timeloop |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Stuck%20In%20A%20Time%20Loop/timeloop.java)|
+|[Tolvunar](https://open.kattis.com/problems/tolvunarfraedingartelja)| tolvunarfraedingartelja |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Tolvunar/tolvunarfraedingartelja.py)|
 |[Transit Woes](https://open.kattis.com/problems/transitwoes)| transitwoes |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Transit%20Woes/transitwoes.java)|
 |[Triangle Area](https://open.kattis.com/problems/triarea)| triarea |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Triangle%20Area/triarea.java)|
 |[Trik](https://open.kattis.com/problems/trik)| trik |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Trik/trik.java)|
+|[Umferd](https://open.kattis.com/problems/umferd)| umferd |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Umferd/umferd.py)|
 |[Undead or Alive](https://open.kattis.com/problems/undeadoralive)| undeadoralive |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Undead%20or%20Alive/undeadoralive.py)|
 |[Arrangement](https://open.kattis.com/problems/upprodun)| upprodun |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Arrangement/upprodun.py)|
 |[Vaccine Efficacy](https://open.kattis.com/problems/vaccineefficacy)| vaccineefficacy |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Vaccine%20Efficacy/vaccineefficacy.java)|
 |[Vauvau](https://open.kattis.com/problems/vauvau)| vauvau |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Vauvau/vauvau.java)|
+|[Vedurheidar](https://open.kattis.com/problems/vedurheidar)| vedurheidar |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Vedurheidar/vedurheidar.py)|
 |[vedurvindhradi](https://open.kattis.com/problems/vedurvindhradi)| vedurvindhradi |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/vedurvindhradi/vedurvindhradi.py)|
+|[Vefthjonatjon](https://open.kattis.com/problems/vefthjonatjon)| vefthjonatjon |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Vefthjonatjon/vefthjonatjon.py)|
 |[Velkomin!](https://open.kattis.com/problems/velkomin)| velkomin |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Velkomin!/velkomin.py)|
 |[vending](https://open.kattis.com/problems/vending)| vending |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/vending/vending.py)|
 |[Vidsnuningur](https://open.kattis.com/problems/vidsnuningur)| vidsnuningur |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Vidsnuningur/vidsnuningur.py)|
