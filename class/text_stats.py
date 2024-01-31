@@ -41,10 +41,12 @@ def dict_count_letters(list_of_words):
 def print_letter_count_data(dict, num_rows):
     """Given a dict of letter frequencies, present the first num_rows of data into a nice looking print"""
     num_letters = count_total_letters(dict)
+    print("_____________________________")
+    print("| Rank | Letter | Frequency ")
     for row in range(num_rows):
         k, val = dict[row]
         freq = val/num_letters
-        print(f"rank: {row+1}, letter: {k}, frequency: {freq:.3}")
+        print(f"| {row+1}"," "*(row<9),f" | {k}      | {freq:.3} ")
 
 #Words stats
 def count_total_words(word_dict):
@@ -77,11 +79,11 @@ def print_word_count_data(dict, words_list, num_rows):
     for row in range(num_rows):
         k, val = dict[row]
         freq = val/num_words
-        print(f"rank: {row+1}, word: {k}, frequency: {freq:.3}")
+        print(f"rank: {row+1}, word: {k}, frequency: {freq:.3}. Most common following words:")
         followers_dict = dict_of_following_words(words_list, my_word = k)
         for fol in range(3):
             follower, occ = followers_dict[fol]
-            print(f"----------------- {follower}, occurences: {occ}")
+            print(f"-- {follower}, occurences: {occ}")
         
 
 def dict_of_following_words(words_list, my_word):
@@ -102,18 +104,20 @@ def dict_of_following_words(words_list, my_word):
 #-----------Main---------------
 def main():
     import sys
+    import codecs
+    
     print(sys.argv)
     if (len(sys.argv) <= 1):
         print("Missing file location.")
         print("Try ./text_stats.py <filename>")
     else:
         file = sys.argv[1]
-        print(f"Analysing file {file}.")
-
-        #### Script logic starts here ###
-
-        with open(file, "r") as f:
+        print(f"Analysing file {file}")
+        # Opening the file with codecs to avoid encoding issues (worked on Linux without it, but not on Windows)
+        
+        with codecs.open(file, "r", encoding="utf-8") as f:
             # Opening the file
+            
             text = f.read()
 
             # Converting raw tax into a cleaned list of words (all lowercase)
@@ -126,12 +130,11 @@ def main():
             print(f"Found {count_total_words(dict_count_words(words_list))} words in {file}")
 
             print("\nUnique words count")
-            print(f"There are {count_unique_words(words_list)} uniques words in {file}")
+            print(f"Found {count_unique_words(words_list)} unique words in {file}")
 
-            print("\nMost common words:")
+            print("\nThe 5 most common words (and their most commonly following words):")
             print_word_count_data(dict = dict_count_words(words_list), words_list=words_list, num_rows = 5)
 
-        ###############################
     return 0
 
 if __name__ == "__main__":
