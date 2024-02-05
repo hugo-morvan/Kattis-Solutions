@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
+#Calculate the entropy of the following words (for relative importance of words)
+
 import sys
+import codecs
 # To run the script : chmod u+x text_stats.py shakespeare.txt
 def raw_text_to_clean_list(text):
     """Converts a string of text to a list of words, without upper case letters, punctuation or line breaks."""

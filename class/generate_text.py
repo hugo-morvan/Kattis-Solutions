@@ -22,17 +22,34 @@ def main():
         with open(file, "r") as f:
             text = f.read()
             words_list = raw_text_to_clean_list(text)
+        
+        #Idea : use memoization to speedup the generation of the text.
+        last_word = start_word
+        seen_words = {}
+        token = 0
+        memo_count = 0
+        while token < max_token:
+            last_word_followers = {}
 
-        generated_text = []
-           
+            #Memoization :
+            if last_word not in seen_words.keys():
+                last_word_followers = dict_of_following_words(words_list, last_word)
+                seen_words[last_word] = last_word_followers
+                memo_count += 1
+            else:
+                last_word_followers = seen_words[last_word]
 
-        #4) print generated words.
+            last_word_followers = dict(last_word_followers)
+            num_followers = sum([val for val in last_word_followers.values()])
+            tup = list(last_word_followers.items())
+            pop, wei = zip(*tup)
+            next_word = random.choices(population = pop, weights = wei)[0]
+            print(next_word, end=' ')
+            last_word = next_word
+            token += 1
+        print()
         print("Generation took --- %s seconds ---" % (time.time() - start_time))
-        print("Here is the generated text : ")
-        print("------------------------")
-        print(*[word for word in generated_text])
-        print("------------------------")
-
+        print(f"Memoization dict used {memo_count} times")
     return 0
 
 if __name__ == "__main__":
