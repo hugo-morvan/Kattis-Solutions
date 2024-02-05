@@ -2,7 +2,7 @@ from text_stats import *
 from tqdm import tqdm
 words_list = []
 file = "shakespeare.txt"
-with open(file, "r") as f:
+with open(file, "r", encoding="utf-8") as f:
     text = f.read()
     words_list = raw_text_to_clean_list(text)
 
