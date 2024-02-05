@@ -12,5 +12,4 @@ while len(sorted_costs)>0:
         if sum(selection)/len(selection) >= y:
             break
 
-    
 print(len(selection))

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import sys
 # To run the script : chmod u+x text_stats.py shakespeare.txt
 def raw_text_to_clean_list(text):
     """Converts a string of text to a list of words, without upper case letters, punctuation or line breaks."""
@@ -101,7 +102,7 @@ def dict_of_following_words(words_list, my_word):
 
 #-----------Main---------------
 def main():
-    import sys
+    
     print(sys.argv)
     if (len(sys.argv) <= 1):
         print("Missing file location.")
@@ -135,8 +136,8 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    print("Script called directly")
+    print("text_stats.py called directly")
     main()
 else:
-    print("I was imported")
-    main()
+    print("text_stats.py was imported")
+    
