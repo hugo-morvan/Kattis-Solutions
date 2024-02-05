@@ -96,12 +96,14 @@ def dict_of_following_words(words_list, my_word):
     followers_frequencies = {}
     indices = [i for i, x in enumerate(words_list) if x == my_word]
     for index in indices:
-        follower = words_list[index+1]
-        if follower in followers_frequencies:
-            followers_frequencies[follower] += 1
-        else:
-            followers_frequencies[follower] = 1
-    
+        if index < len(words_list)-1 :
+
+            follower = words_list[index+1]
+            if follower in followers_frequencies:
+                followers_frequencies[follower] += 1
+            else:
+                followers_frequencies[follower] = 1
+        else: pass
     followers_frequencies = sorted(followers_frequencies.items(), key=lambda x: x[1], reverse=True)
     return followers_frequencies
 
