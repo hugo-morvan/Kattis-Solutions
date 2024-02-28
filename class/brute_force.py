@@ -4,6 +4,7 @@ Short scrript to create a dictionary of followers for each word in the text
 
 from text_stats import *
 from tqdm import tqdm
+
 words_list = []
 file = "shakespeare.txt"
 with open(file, "r", encoding="utf-8") as f:

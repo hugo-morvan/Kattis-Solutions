@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 
-#Calculate the entropy of the following words (for relative importance of words)
+"""
+Answer to lab questions: 
+In what way did you "clean up" or divide up the text into words (in the program; the text files should be left
+unaffected)? This does not have to be perfect in any sense, but it should at least avoid counting "lord",
+"Lord" and "lord." as different words.
+-> First, all letters were set to lower cases, then punctuaction was stripped, 
+    and the return to line caracters were stripped as well.
+
+Which data structures have you used (such as lists, tuples, dictionaries, sets, ...)? Why does that choice
+make sense?
+
+-> I used a list to store my text as it is a datastructure that handles indexes and duplicates.
+    I used various dictionnaries throughout the question to handle text statistics as I could link an element (letter or word) 
+    to its attributes (followers, frequency, etc...)
+"""
 
 import sys
 import codecs
