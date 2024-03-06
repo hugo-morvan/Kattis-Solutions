@@ -18,6 +18,7 @@ def main():
         start_time = time.time()
 
         #--------Idea 1: use memoization to speedup the generation of the text.----------
+        
         # Time to generate 500 words: 15s, time to generate 2000 words: 45s
         #1) Get text and process it
         #words_list = []
@@ -31,7 +32,7 @@ def main():
         #memo_count = 0
         #while token < max_token:
         #    last_word_followers = {}
-#
+
         #    #Memoization :
         #    if last_word not in seen_words.keys():
         #        last_word_followers = dict_of_following_words(words_list, last_word)
@@ -39,7 +40,7 @@ def main():
         #        memo_count += 1
         #    else:
         #        last_word_followers = seen_words[last_word]
-#
+
         #    last_word_followers = dict(last_word_followers)
         #    num_followers = sum([val for val in last_word_followers.values()])
         #    tup = list(last_word_followers.items())
@@ -50,6 +51,7 @@ def main():
         #    token += 1
         
         #--------Idea 2: use a dictionary to store the followers of each word.(brute force)----------
+
         #Time to generate the brute force dict: 10min
         #Time to generate 500 words: 1.1s, time to generate 2000 words:1.3s
         

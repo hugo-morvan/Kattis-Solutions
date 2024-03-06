@@ -56,15 +56,15 @@ def dict_count_letters(list_of_words):
     letter_frequencies = sorted(letter_frequencies.items(), key=lambda x: x[1], reverse=True)
     return letter_frequencies
 
-def print_letter_count_data(dict, num_rows):
+def print_letter_count_data(dict, num_rows, out_file):
     """Given a dict of letter frequencies, present the first num_rows of data into a nice looking print"""
     num_letters = count_total_letters(dict)
-    print("_____________________________")
-    print("| Rank | Letter | Frequency ")
+    print("_____________________________", file=out_file)
+    print("| Rank | Letter | Frequency ", file=out_file)
     for row in range(num_rows):
         k, val = dict[row]
         freq = val/num_letters
-        print(f"| {row+1}"," "*(row<9),f" | {k}      | {freq:.3} ")
+        print(f"| {row+1}"," "*(row<9),f" | {k}      | {freq:.3} ", file=out_file)
 
 #Words stats
 def count_total_words(word_dict):
@@ -91,17 +91,17 @@ def dict_count_words(list_of_words):
 def count_unique_words(list_of_words):
     return len(dict_count_words(list_of_words))
 
-def print_word_count_data(dict, words_list, num_rows):
+def print_word_count_data(dict, words_list, num_rows, out_file):
     """Given a dict of word frequencies, present the first num_rows of data into a nice looking print"""
     num_words = count_total_words(dict)
     for row in range(num_rows):
         k, val = dict[row]
         freq = val/num_words
-        print(f"rank: {row+1}, word: {k}, frequency: {freq:.3}. Most common following words:")
+        print(f"rank: {row+1}, word: {k}, frequency: {freq:.3}. Most common following words:" , file=out_file)
         followers_dict = dict_of_following_words(words_list, my_word = k)
         for fol in range(3):
             follower, occ = followers_dict[fol]
-            print(f"-- {follower}, occurences: {occ}")
+            print(f"-- {follower}, occurences: {occ}", file=out_file)
         
 
 def dict_of_following_words(words_list, my_word):
@@ -127,13 +127,19 @@ def main():
     print(sys.argv)
     if (len(sys.argv) <= 1):
         print("Missing file location.")
-        print("Try ./text_stats.py <filename>")
+        print("Try ./text_stats.py <filename> <output_file (optional)>")
     else:
-        file = sys.argv[1]
-        print(f"Analysing file {file}")
+        read_file = sys.argv[1]
+        print(f"Analysing file {read_file}")
         # Opening the file with codecs to avoid encoding issues (worked on Linux without it, but not on Windows)
         
-        with codecs.open(file, "r", encoding="utf-8") as f:
+        out_file = None
+        if (len(sys.argv) == 3):
+            out_file_name = sys.argv[2]
+            print(f"Writing output in file {out_file_name}.")
+            out_file = open(out_file_name, 'w')
+
+        with codecs.open(read_file, "r", encoding="utf-8") as f:
             # Opening the file
             
             text = f.read()
@@ -141,18 +147,20 @@ def main():
             # Converting raw tax into a cleaned list of words (all lowercase)
             words_list = raw_text_to_clean_list(text)
 
-            print("\nLetter frequencies:")
-            print_letter_count_data(dict = dict_count_letters(words_list), num_rows = 26)
+            print("\nLetter frequencies:", file = out_file)
+            print_letter_count_data(dict = dict_count_letters(words_list), num_rows = 26, out_file = out_file)
 
-            print("\nWord count:")
-            print(f"Found {count_total_words(dict_count_words(words_list))} words in {file}")
+            print("\nWord count:", file=out_file)
+            print(f"Found {count_total_words(dict_count_words(words_list))} words in {read_file}", file=out_file)
 
-            print("\nUnique words count")
-            print(f"Found {count_unique_words(words_list)} unique words in {file}")
+            print("\nUnique words count", file=out_file)
+            print(f"Found {count_unique_words(words_list)} unique words in {read_file}", file=out_file)
 
-            print("\nThe 5 most common words (and their most commonly following words):")
-            print_word_count_data(dict = dict_count_words(words_list), words_list=words_list, num_rows = 5)
+            print("\nThe 5 most common words (and their most commonly following words):", file=out_file)
+            print_word_count_data(dict = dict_count_words(words_list), words_list=words_list, num_rows = 5 , out_file = out_file)
 
+        if out_file:
+            print(f"Finished writing output. Check {sys.argv[2]} to see the result.")
     return 0
 
 if __name__ == "__main__":

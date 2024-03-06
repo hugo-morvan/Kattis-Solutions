@@ -1,0 +1,58 @@
+
+Letter frequencies:
+_____________________________
+| Rank | Letter | Frequency 
+| 1    | e      | 0.119 
+| 2    | t      | 0.0876 
+| 3    | o      | 0.0823 
+| 4    | a      | 0.0766 
+| 5    | i      | 0.0666 
+| 6    | s      | 0.0659 
+| 7    | n      | 0.0644 
+| 8    | h      | 0.0633 
+| 9    | r      | 0.0623 
+| 10   | l      | 0.0447 
+| 11   | d      | 0.0393 
+| 12   | u      | 0.034 
+| 13   | m      | 0.0291 
+| 14   | y      | 0.0246 
+| 15   | w      | 0.0238 
+| 16   | c      | 0.0227 
+| 17   | f      | 0.0213 
+| 18   | g      | 0.018 
+| 19   | b      | 0.0159 
+| 20   | p      | 0.0152 
+| 21   | v      | 0.00994 
+| 22   | k      | 0.00936 
+| 23   | x      | 0.00132 
+| 24   | j      | 0.00121 
+| 25   | q      | 0.00098 
+| 26   | z      | 0.000456 
+
+Word count:
+Found 789524 words in shakespeare.txt
+
+Unique words count
+Found 21760 unique words in shakespeare.txt
+
+The 5 most common words (and their most commonly following words):
+rank: 1, word: the, frequency: 0.0371. Most common following words:
+-- king, occurences: 522
+-- duke, occurences: 297
+-- world, occurences: 283
+rank: 2, word: and, frequency: 0.0352. Most common following words:
+-- the, occurences: 789
+-- i, occurences: 726
+-- so, occurences: 420
+rank: 3, word: i, frequency: 0.0265. Most common following words:
+-- am, occurences: 1834
+-- have, occurences: 1594
+-- will, occurences: 1511
+rank: 4, word: to, frequency: 0.0255. Most common following words:
+-- the, occurences: 1457
+-- be, occurences: 951
+-- my, occurences: 491
+rank: 5, word: of, frequency: 0.0232. Most common following words:
+-- the, occurences: 1549
+-- my, occurences: 721
+-- his, occurences: 591
