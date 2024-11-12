@@ -1,1 +1,1 @@
-#https://open.kattis.com/problems/shortcuttowhat
+print(3*int(input())+5)
