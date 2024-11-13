@@ -1,4 +1,6 @@
-## Total problems solved: 315
+## Total problems attempted: 317
+
+![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/plot.png?raw=true)
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
 
@@ -49,6 +51,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Betting](https://open.kattis.com/problems/betting)| betting |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Betting/betting.py)|
 |[Bijele](https://open.kattis.com/problems/bijele)| bijele |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Bijele/bijele.py)|
 |[Bishops](https://open.kattis.com/problems/bishops)| bishops |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Bishops/bishops.py)|
+|[Bitte ein Bit](https://open.kattis.com/problems/bitteeinbit)| bitteeinbit |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Bitte%20ein%20Bit/bitteeinbit.py)|
 |[Blaðra](https://open.kattis.com/problems/bladra2)| bladra2 |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Blaðra/bladra2.py)|
 |[Blandað Best](https://open.kattis.com/problems/blandadbest)| blandadbest |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Blandað%20Best/blandadbest.py)|
 |[Blueberry Waffle](https://open.kattis.com/problems/blueberrywaffle)| blueberrywaffle |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Blueberry%20Waffle/blueberrywaffle.py)|
@@ -148,6 +151,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[ICPC Awards](https://open.kattis.com/problems/icpcawards)| icpcawards |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/ICPC%20Awards/icpcawards.py)|
 |[International Dates](https://open.kattis.com/problems/internationaldates)| internationaldates |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/International%20Dates/internationaldates.py)|
 |[IsItHalloween](https://open.kattis.com/problems/isithalloween)| isithalloween |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/IsItHalloween/isithalloween.java)|
+|[Is Y a Vowel?](https://open.kattis.com/problems/isyavowel)| isyavowel |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Is%20Y%20a%20Vowel?/isyavowel.py)|
 |[Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition)| jackolanternjuxtaposition |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Jack-O'-Lantern%20Juxtaposition/jackolanternjuxtaposition.java)|
 |[Janitor Troubles](https://open.kattis.com/problems/janitortroubles)| janitortroubles |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Janitor%20Troubles/janitortroubles.py)|
 |[jobbyte](https://open.kattis.com/problems/jobbyte)| jobbyte |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/jobbyte/jobbyte.py)|
