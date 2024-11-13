@@ -6,4 +6,4 @@ load_dotenv()
 user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 kt = OpenKattis(user, password)
-kt.plot_problems(filepath='./plot.png',show_partial=False)       # save to a filepath
+kt.plot_problems(filepath='./plot.png',show_partial=True)       # save to a filepath
