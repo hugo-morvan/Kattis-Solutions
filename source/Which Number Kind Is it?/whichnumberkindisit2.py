@@ -1,0 +1,1 @@
+for _ in[0]*int(input()):a=int(input());o=a%2;s=(a**.5//1)**2==a;print("empty"*(s+o==0)+o*"O"+"S"*s)
