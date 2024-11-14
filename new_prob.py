@@ -19,24 +19,97 @@ def table(rows):
     template = '  '.join(['{{:<{}}}'.format(width) for width in max_widths])
     return '\n'.join([template.format(*row) for row in rows])
 
+def color(s, c):
+    return f'\x1b[{c}m{s}\x1b[0m'
+
+def get_rating_color(rating):
+    rating = float(rating)
+    if rating <= 2.7: return 42
+    elif rating <= 5.5 : return 43
+    else: return 41
+
 def sug_data(kattis_suggest):
     sug = kattis_suggest
-    print("Here is a selection of suggested problems")
+    print("\nHere is a selection of suggested problems:\n")
     ids = range(len(sug))
     data = []
-    data.append(["ID", "Name", "Difficulty", "Rating"])
+    data.append([color("ID ",1), color("Name",1), color("Difficulty",1), color("Rating",1)])
     for i in ids:
-        data.append([f"[{i+1}]",f"{sug[i]['name']}",f"{sug[i]['difficulty']}", f"[{sug[i]['min']} - {sug[i]['max']}]"])
+        diff = sug[i]['difficulty']
+        diff_color_dict = {'Trivial':34, 'Easy':32, 'Medium':33, 'Hard':31}
+        diff_color = diff_color_dict[diff]
+        minr = sug[i]['min']
+        maxr = sug[i]['max']
+        data.append([f"[{color(str(i+1),0)}]",
+                     f"{color(sug[i]['name'],0)}",
+                     f"{color(diff, diff_color)}",
+                     f"[{color(minr, get_rating_color(minr))} - {color(maxr, get_rating_color(maxr))}]"])
     return data, ids
 
 def print_statistics():
     return None
 
+def print_kattis():
+    kat = '''                                                                                                                                                            
+                                                                              
+                                                                              
+                                                                              
+        @@@@@@@@@@                        @@@@@@@@@                           
+       @*:==----:*%@@@                @@@#=:=-=-===@                          
+      @@**##=:=======+@@           @@%=======-=+%#+=@                         
+      @#*****#%=========%@@@@@@@@@@*========+%******%@                        
+      @*********%===@@*::@*:*%:*%:::+@@+===%********#@                        
+      @**********@***+==*-%==#=%========*@%**********@                        
+      @********@=%========-=========##*#===%#********@                        
+      @******@+=#=================%=========+@*******@                        
+      @#****@+==================*#===========+@*****%@                        
+      @@***@*===#+=*+--+*==========*=:-*++#==+*@****@                         
+       @%*#%*==++%=   #+ +=======*: #%:  **#==*+%**@@                         
+        @%%*==---# . %.+@ *======+ *:=@- :*=*@@@@*@@                          
+         @@@%*:==# . @@@* *======+ =@@%  :*====+%@      @@@@@@@@@@@           
+          @*+=====#      *.....:-:=     :%*=-=**@   @@@%*=%#==%==*=*%@        
+          @#===:+*=+***+:.:.-:::::.:==:..:=+*@@@@ @@#*%*#+#%=+#+=##++@@       
+           @@@-=..:.:.::.:..=@+%-.:..:..:.:.+=+@@@@@%*#***#*++++=*%++@@       
+         @@@@+*..:..:..:.:.:.....=%%:.:..:.-==@rrrr@%*******+=+++*%+=@@       
+       @@@rr%@*=-..:.:..:.:.:.::%.:.:.::.:===@rrrr@@********=#++++%++@@       
+      @@rrrrrr%@===-:...:.:.:....:....:-===@@@@rr%%@#%*#****=%=++=%=*@@@      
+      @rrrrr%@rr@%======--:::::::-=====%@@%%%%%%%%%%**%@***=%+++=#+*%*@@     
+      @rrrrrrrrrrrr@@@#=============*@@%%%%%%%%%%%%%%**%@***+#++++*=*##@@@@   
+      @@rrrrrr%@%@%%%%%%%%@@@%%%%*#@%%%%%%%%%%%%%%%%@**%@****#*+++++#+@%%%@@  
+       @rrrrrr%@%%%%%%%%%%%%%%@%#@%%%%%%%%%%%%%%%%%%@**%%****++++++=%@%%%%%@@ 
+      @@@@%%%%%%@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@#*%***#*=%=+++=%%%%%%%%@@
+   @@@%%%%%%%%%%%%%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%%%***%+#*+==*+@%%%%%%%@@
+ @@@%%%%%%@%@%@==*@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%**%*%**%%++#@%%%%%%%%@@
+@@%%%%%%@=.: --...::..+@%%%%%%%%%%%%%%%%%%%%%%%%%%%@%#####***********##%@%%%@@
+@@@@@@@@@%%%@%%%@@%%@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+'''
+    kattis = '''
+         _  __     _   _   _     
+        | |/ /__ _| |_| |_(_)___ 
+        | ' // _` | __| __| / __|
+        | . \ (_| | |_| |_| \__ \ 
+        |_|\_\__,_|\__|\__|_|___/
+          
+          '''
+    kat = kat.replace('@', color('@', 30))\
+             .replace('.',color('.',1))\
+             .replace(':',color(':',1))\
+             .replace('%',color('%',30))\
+             .replace('=',color('=',33))\
+             .replace('*',color('*',33))\
+             .replace('+',color('+',33))\
+             .replace('-',color('-',33))\
+             .replace('#',color('#',30))\
+             .replace('r',color('%',31))
+    print(kat)
+    print(kattis)
+    return None
 def main():
     """ Main program """
+    print_kattis()
     reply = None
     while 1:
-        reply = input("What do you want ? see (s)olved problems statistics or start a (n)ew problem: ")
+        reply = input("\nWhat do you want ? see (s)olved problems statistics or start a (n)ew problem: ")
         if reply=="q":
             print("Quitting the program")
             return 0
@@ -49,17 +122,18 @@ def main():
         print("Here are some statistics about the problems you solved so far")
         #To Do: Print statistics in a nice format
         print_statistics()
+
     elif reply=="n":
         sug = kt.suggest()
         data, ids = sug_data(sug)
         print(table(data))
         while 1:
-            selection = int(input("Select a problem [id] or 0 to quit: "))
+            selection = int(input("Select a problem [id#] or quit (0): "))
             if selection==0:
-                print("Quitting the program")
+                print("\nQuitting the program\n")
                 return 0
             if selection not in ids:
-                print("Please select a valid problem id or quit (0): ")
+                print("Please select a valid problem [id#] or quit (0): ")
             else:
                 break
         sel_id = selection-1
