@@ -1,0 +1,1 @@
+print(sum(map(lambda c:c.isalpha(),input())))
