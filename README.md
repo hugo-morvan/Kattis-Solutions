@@ -3,6 +3,7 @@
 ![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/plot.png?raw=true)
 
 Goal:
+
 ![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/all_problems_dist.png?raw=true)
 
 Note that the table below is auto-generated. There might be slight inaccuracies.
