@@ -1,8 +1,13 @@
-## Total problems attempted: 327
+## Total problems attempted: 330 (7.50%)
 
 ![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/plot.png?raw=true)
 
+Goal:
+![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/all_problems_dist.png?raw=true)
+
 Note that the table below is auto-generated. There might be slight inaccuracies.
+
+auto-table script credits : https://github.com/RussellDash332/kattis.
 
 |Problem Name|Problem ID|Languages|
 |:---|:---|:---|
@@ -104,6 +109,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Digit Swap](https://open.kattis.com/problems/digitswap)| digitswap |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Digit%20Swap/digitswap.java)|
 |[Disc District](https://open.kattis.com/problems/discdistrict)| discdistrict |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Disc%20District/discdistrict.py)|
 |[Distributing Poffins](https://open.kattis.com/problems/distributingpoffin)| distributingpoffin |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Distributing%20Poffins/distributingpoffin.py)|
+|[Divvying Up](https://open.kattis.com/problems/divvyingup)| divvyingup |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Divvying%20Up/divvyingup.py)|
 |[Draga Frá](https://open.kattis.com/problems/dragafra)| dragafra |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Draga%20Frá/dragafra.py)|
 |[DRM Messages](https://open.kattis.com/problems/drmmessages)| drmmessages |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/DRM%20Messages/drmmessages.py)|
 |[The Easiest Problem is This One](https://open.kattis.com/problems/easiest)| easiest |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/The%20Easiest%20Problem%20is%20This%20One/easiest.py)|
@@ -142,6 +148,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Greetings!](https://open.kattis.com/problems/greetings2)| greetings2 |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Greetings!/greetings2.java)|
 |[gymleader](https://open.kattis.com/problems/gymleader)| gymleader |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/gymleader/gymleader.py)|
 |[Hakkari](https://open.kattis.com/problems/hakkari)| hakkari |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Hakkari/hakkari.py)|
+|[Hanging Out on the Terrace](https://open.kattis.com/problems/hangingout)| hangingout |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Hanging%20Out%20on%20the%20Terrace/hangingout.py)|
 |[Harshad Numbers](https://open.kattis.com/problems/harshadnumbers)| harshadnumbers |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Harshad%20Numbers/harshadnumbers.py)|
 |[Haughty Cuisine](https://open.kattis.com/problems/haughtycuisine)| haughtycuisine |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Haughty%20Cuisine/haughtycuisine.py)|
 |[Heart Rate](https://open.kattis.com/problems/heartrate)| heartrate |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Heart%20Rate/heartrate.java)|
@@ -189,6 +196,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[logicfunctions](https://open.kattis.com/problems/logicfunctions)| logicfunctions |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/logicfunctions/logicfunctions.py)|
 |[Longest Prime Sum](https://open.kattis.com/problems/longestprimesum)| longestprimesum |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Longest%20Prime%20Sum/longestprimesum.py)|
 |[Lubbi Lærir](https://open.kattis.com/problems/lubbilaerir)| lubbilaerir |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Lubbi%20Lærir/lubbilaerir.py)|
+|[Mæting](https://open.kattis.com/problems/maeting)| maeting |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Mæting/maeting.py)|
 |[Magic Trick](https://open.kattis.com/problems/magictrick)| magictrick |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Magic%20Trick/magictrick.java)|
 |[Making a Meowth](https://open.kattis.com/problems/makingameowth)| makingameowth |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Making%20a%20Meowth/makingameowth.py)|
 |[Mars Window](https://open.kattis.com/problems/marswindow)| marswindow |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Mars%20Window/marswindow.py)|
@@ -326,7 +334,7 @@ Note that the table below is auto-generated. There might be slight inaccuracies.
 |[Weak Vertices](https://open.kattis.com/problems/weakvertices)| weakvertices |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Weak%20Vertices/weakvertices.py)|
 |[WERTYU](https://open.kattis.com/problems/wertyu)| wertyu |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/WERTYU/wertyu.py)|
 |[Which is Greater](https://open.kattis.com/problems/whichisgreater)| whichisgreater |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Which%20is%20Greater/whichisgreater.py)|
-|[Which Number Kind Is it?](https://open.kattis.com/problems/whichnumberkindisit2)| whichnumberkindisit2 |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Which%20Number%20Kind%20Is%20it?/whichnumberkindisit2.py)|
+|[Which Number Kind Is it](https://open.kattis.com/problems/whichnumberkindisit2)| whichnumberkindisit2 |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Which%20Number%20Kind%20Is%20it/whichnumberkindisit2.py)|
 |[Who's the Boss](https://open.kattis.com/problems/whostheboss)| whostheboss |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Who's%20the%20Boss/whostheboss.py)|
 |[Wonky Pizza](https://open.kattis.com/problems/wonkypizza)| wonkypizza |[![java](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/java/java_24x24.png)](source/Wonky%20Pizza/wonkyPizza.java)|
 |[Yin and Yang Stones](https://open.kattis.com/problems/yinyangstones)| yinyangstones |[![py](https://github.com/abrahamcalf/programming-languages-logos/blob/master/src/python/python_24x24.png)](source/Yin%20and%20Yang%20Stones/yinyangstones.py)|

@@ -55,9 +55,11 @@ for path, dirs, files in os.walk('source'):
 lines = open('README.md', 'r').readlines()[:0] #Change this if you want to keep some lines of code intact
 with open('README.md', 'w+') as f:
     for line in lines: f.write(line)
-    f.write(f'## Total problems attempted: {len(contents)}\n\n')
+    f.write(f'## Total problems attempted: {len(contents)} ({len(contents)/4401*100:.2f}%)\n\n')
     f.write('![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/plot.png?raw=true)\n\n')
+    f.write('Goal:\n')
+    f.write('![alt text](https://github.com/hugo-morvan/Kattis-Solutions/blob/main/all_problems_dist.png?raw=true)\n\n')
     f.write(f'Note that the table below is auto-generated. There might be slight inaccuracies.\n\n')
-    #f.write(f'auto-table script credits : https://github.com/RussellDash332/kattis.\n\n')
+    f.write(f'auto-table script credits : https://github.com/RussellDash332/kattis.\n\n')
     f.write('|Problem Name|Problem ID|Languages|\n|:---|:---|:---|\n')
     for key, content in sorted(contents): f.write(content)
