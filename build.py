@@ -17,6 +17,7 @@ image_mapper = {
     'rb':   'ruby',
     'js':   'javascript'
 }
+
 get_image = lambda e,s=24: f'{image_src}{image_mapper[e]}/{image_mapper[e]}_{s}x{s}.png'
 
 contents = []
@@ -26,10 +27,10 @@ for path, dirs, files in os.walk('source'):
     elif len(path) == 3 and path[1] == '.nus': path, nus = path[2], True
     else: continue
     hyps = []
-    has_py = has_cpp = False; has_java = []
-    for file in sorted(files):
+    has_py = has_cpp = False; has_java = [] for file in sorted(files):
         ext = file.split('.')[-1]
-        if ext in image_mapper and file not in file_whitelist: hyps.append(f"[![{ext}]({get_image(ext)})]({ori_path}/{file})")
+        if ext == 'jl': hyps.append(f"[![{ext}]({https://github.com/JuliaLang/julia-logo-graphics/blob/master/images/juliadots.iconset/icon_16x16%402x.png})]({ori_path}/file)") #Include Julia logo
+        elif ext in image_mapper and file not in file_whitelist: hyps.append(f"[![{ext}]({get_image(ext)})]({ori_path}/{file})")
         if not has_cpp and ext == 'cpp': has_cpp = file
         if not has_java and ext == 'java': has_java.append(file.lower())
         if not has_py and file not in file_whitelist and ext == 'py': has_py = file
